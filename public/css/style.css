@@ -1,0 +1,94 @@
+.homebody {
+ background-color: orange;
+ color: #0312FF;
+ position: relative;
+ z-index: 1;
+}
+
+.animalquiz {
+    position: relative;
+    z-index: 2;
+}
+
+.wouldyourather {
+ background-color: red;
+}
+
+h1 {
+ text-align: center;
+ font-size: 400%;
+}
+
+h2 {
+ text-align: center;
+ font-size: 200%;
+}
+
+h6 {
+    text-align: center;
+    font-size: 100%;
+}
+
+.homebackground1 {
+ position: relative;
+ left: 1px;
+ top: -250px;
+}
+
+.homebackground2 {
+ position: relative;
+ left: 400px;
+ top: -200px;
+}
+
+.homebackground3 {
+ position: relative;
+ left: 800px;
+ top: -400px;
+}
+
+.homebackground4 {
+ position: relative;
+ left: 1100px;
+ top: -800px;
+}
+
+.homebackground5 {
+ position: relative;
+ left: 30px;
+ top: -800px;
+}
+
+.homebackground6 {
+ position: relative;
+ left: 200px;
+ top: -1500px;
+}
+
+.homebackground7 {
+ position: relative;
+ left: 600px;
+ top: -1700px;
+}
+
+.homebackground8 {
+ position: relative;
+ left: 1000px;
+ top: -1900px;
+}
+
+
+.question {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.radio {
+ text-align: center;
+ list-style-position: inside;
+}
+
+.caption {
+ text-align: center;
+ list-style-position: inside;
+}

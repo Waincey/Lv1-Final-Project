@@ -1,0 +1,47 @@
+
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>Animal Quiz</title>
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+ </head>
+ <style>
+     body {background-color: #E4A1F7;}
+     h5 {location: center}
+ </style>
+ <body>
+   <div class="container">
+     <h1 class="header">Animal Quiz</h1>
+
+     <h2 class="caption">Find out what animal you are!</h2>
+     <div class="question">
+     <form action="/animalresults" method="post">
+     <h2>How fast do you do things?</h2>
+       <input type="radio" name="speed" value="A">Quickly<br>
+       <input type="radio" name="speed" value="B">Take my time<br>
+       <input type="radio" name="speed" value="C">It depends
+       <h2>How talkative are you?</h2>
+       <input type="radio" name="talk" value="D">Quiet<br>
+       <input type="radio" name="talk" value="E">Chatty<br>
+       <input type="radio" name="talk" value="F">Learning a new language<br>
+       <h2> Would you prefer...</h2>
+         <input type="radio" name="prefer" value="G" >Rock climbing<br>
+         <input type="radio" name="prefer" value="H">Running<br>
+         <input type="radio" name="prefer" value="I">None<br>
+           <h2>What time are you most active?</h2>
+       <input type="radio" name="time" value="J">Morning<br>
+       <input type="radio" name="time" value="K">Afternoon<br>
+       <input type="radio" name="time" value="L">Night<br>
+       <h2>One last question, are you... </h2>
+         <input type="radio" name="you are" value="M" >An introvert<br>
+         <input type="radio" name="you are" value="N">An extrovert<br>
+         <input type="radio" name="you are" value="O">Combination<br>
+         
+         
+         <h2><input type = "submit" value = "you are..." ></h2>
+     </form>
+   </div>
+ </div>
+
+ </body>
+ </html>
